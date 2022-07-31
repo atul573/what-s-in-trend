@@ -1,0 +1,134 @@
+body {
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0 5%;
+  font-family: "Poppins";
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+  position: absolute;
+  top: 10px;
+  left: 10 px;
+}
+
+.list-item {
+  text-decoration: none;
+  padding: 0 50px;
+
+  font-size: 25px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.button-group {
+  display: flex;
+  padding: 0 50px;
+}
+
+.search-icon {
+  position: relative;
+  top: 10px;
+}
+
+.nav-button {
+  position: relative;
+  background-color: #fff;
+  top: 10px;
+  left: 20px;
+  padding: 0px 30px;
+  border-radius: 10px;
+  right: 330px;
+  font-size: 20px;
+  font-family: "Orbiton";
+}
+
+.hero-container {
+  position: relative;
+  top: 100px;
+}
+.hero-container div > img {
+  position: absolute;
+  top: 50px;
+  height: 500px;
+}
+.square {
+  position: absolute;
+  left: 155px;
+  top: 298px;
+}
+.square > img {
+  height: 300px;
+  width: 300px;
+}
+.globe > img {
+  position: absolute;
+  top: 30px;
+  left: 730px;
+  height: 40px;
+}
+.star > img {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  height: 40px;
+}
+
+.hero-heading {
+  position: absolute;
+  font-size: 59px;
+  top: 70px;
+  left: 600px;
+}
+
+.hero-description {
+  /* font-family: "Poppins"; */
+  font-size: 20px;
+  position: absolute;
+  top: 200px;
+  left: 600px;
+  text-align: center;
+}
+
+.icons {
+  position: absolute;
+  top: 550px;
+
+  right: 250px;
+}
+.contact-heading {
+  position: absolute;
+  top: 500px;
+
+  right: 300px;
+}
+.button-email {
+  background-color: #ffffff;
+  position: absolute;
+  top: 400px;
+  padding: 2px 20px;
+  border-radius: 10px;
+  right: 330px;
+  font-size: 20px;
+  font-family: "Orbiton";
+}
+
+.button-join {
+  background-color: #0b0d0f;
+  color: white;
+  font-family: "Orbiton";
+  font-size: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 400px;
+
+  right: 200px;
+}
