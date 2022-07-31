@@ -1,4 +1,4 @@
-# Justice HomePage (Project 01)
+# What's in Trend (Project 01)
 
 ## Learning from this project.
 
